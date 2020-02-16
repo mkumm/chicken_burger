@@ -33,7 +33,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Apple Juice",
         description: "Pure 100% apple juice",
         price: 3.50,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/apple-juice.png",
         category: :drinks
       },
       %Item{
@@ -41,7 +41,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Carrot Juice",
         description: "A customer favorite made with Polish Carrots, Oranges, Apples, and a little ginger!",
         price: 4.50,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/carrot-juice.png",
         category: :drinks
       },
       %Item{
@@ -49,7 +49,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Italian Burger",
         description: "Made with 3 meats and Italian spices, topped with Cheese!",
         price: 11.00,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/italian-burger.png",
         category: :main
       },
       %Item{
@@ -57,7 +57,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Turkey Burger",
         description: "Fresh turkey combined with traditional Polish spices.",
         price: 9.50,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/turkey-burger.png",
         category: :main
       },
       %Item{
@@ -65,7 +65,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Slaw",
         description: "Polish slaw complements any meal.",
         price: 3.00,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/slaw.png",
         category: :sides
       },
       %Item{
@@ -73,7 +73,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Pickles",
         description: "So good, you can order them as a main dish!",
         price: 2.50,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/pickles.png",
         category: :sides
       }
     ]
