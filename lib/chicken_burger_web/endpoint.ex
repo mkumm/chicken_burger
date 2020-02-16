@@ -41,4 +41,7 @@ defmodule ChickenBurgerWeb.Endpoint do
     signing_salt: "RWQKEVnZ"
 
   plug ChickenBurgerWeb.Router
+
+  plug CORSPlug
+  plug ChickenBurgerWeb.Router
 end
