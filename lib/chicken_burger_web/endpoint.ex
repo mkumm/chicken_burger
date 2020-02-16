@@ -42,6 +42,6 @@ defmodule ChickenBurgerWeb.Endpoint do
 
   plug ChickenBurgerWeb.Router
 
-  plug CORSPlug
+  plug CORSPlug, origin: ["http//localhost:3000"]
   plug ChickenBurgerWeb.Router
 end
