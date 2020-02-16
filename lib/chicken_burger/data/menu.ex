@@ -9,7 +9,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Famous Chicken Burger",
         description: "The most delicous item on the menu! It comes direct from a secret Polish recipe!",
         price: 12.00,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/chicken-burger.png",
         category: :main
       },
       %Item{
@@ -17,7 +17,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Polish French Fries",
         description: "Made the old-fashioned way, with hand-cut potatos that were grown in a small village near Krakow.",
         price: 5.60,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/fries.png",
         category: :sides
       },
       %Item{
@@ -25,7 +25,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "Chery Juice",
         description: "Refreshing juice that is also good for your joints!",
         price: 3.50,
-        image_url: "",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/cherry-juice.png",
         category: :drinks
       },
       %Item{
