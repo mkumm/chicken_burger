@@ -40,7 +40,6 @@ defmodule ChickenBurgerWeb.Endpoint do
     key: "_chicken_burger_key",
     signing_salt: "RWQKEVnZ"
 
-  plug ChickenBurgerWeb.Router
 
   plug CORSPlug, origin: ["http://localhost:3000"]
   plug ChickenBurgerWeb.Router
