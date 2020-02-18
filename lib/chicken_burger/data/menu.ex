@@ -5,6 +5,14 @@ defmodule ChickenBurger.Data.Menu do
   def all() do
     [
       %Item{
+        id: 0,
+        name: "This can be your menu! Contact Aneta Jagla",
+        description: "I am a developer that can do amazing work for you!",
+        price: 1000.00,
+        image_url: "s3://chickenburger/food/IMG_0058.jpeg",
+        category: :ad
+      },
+      %Item{
         id: 1,
         name: "Famous Chicken Burger",
         description: "The most delicous item on the menu! It comes direct from a secret Polish recipe!",
