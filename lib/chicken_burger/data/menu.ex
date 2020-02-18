@@ -9,7 +9,7 @@ defmodule ChickenBurger.Data.Menu do
         name: "This can be your menu! Contact Aneta Jagla",
         description: "I am a developer that can do amazing work for you!",
         price: 1000.00,
-        image_url: "s3://chickenburger/food/IMG_0058.jpeg",
+        image_url: "https://chickenburger.s3.amazonaws.com/food/IMG_0058.jpeg",
         category: :ad
       },
       %Item{
