@@ -75,6 +75,14 @@ defmodule ChickenBurger.Data.Menu do
         price: 2.50,
         image_url: "https://chickenburger.s3.amazonaws.com/food/pickles.png",
         category: :sides
+      },
+      %Item{
+        id: 10,
+        name: "To Go Bag",
+        description: "Some of our options give you too much food and you will want to take some home and share",
+        price: 0.10,
+        image_url: "https://cdnimg.webstaurantstore.com/images/products/extra_large/39784/799441.jpg",
+        category: :misc
       }
     ]
   end
