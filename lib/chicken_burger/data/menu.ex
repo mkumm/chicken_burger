@@ -83,6 +83,14 @@ defmodule ChickenBurger.Data.Menu do
         price: 0.10,
         image_url: "https://cdnimg.webstaurantstore.com/images/products/extra_large/39784/799441.jpg",
         category: :misc
+      },
+      %Item{
+        id: 11,
+        name: "Detroit Burger",
+        description: "Our best burger even better after breading and frying!",
+        price: 15.00,
+        image_url: "https://i1.wp.com/www.foodrepublic.com/wp-content/uploads/2012/03/dyers.jpg",
+        category: :main
       }
     ]
   end

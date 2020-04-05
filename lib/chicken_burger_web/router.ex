@@ -9,5 +9,7 @@ defmodule ChickenBurgerWeb.Router do
     pipe_through :api
 
     get "/menu", ApiController, :menu
+
+    post "/order", ApiController, :order
   end
 end

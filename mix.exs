@@ -38,7 +38,8 @@ defmodule ChickenBurger.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:poison, "~> 3.1"},
-      {:cors_plug, "~> 2.0"}
+      {:cors_plug, "~> 2.0"},
+      {:elixir_uuid, "~> 1.2" },
     ]
   end
 end
