@@ -6,6 +6,7 @@ defmodule ChickenBurgerWeb.ApiController do
   end
 
   def order(conn, params) do
+    IO.inspect(params)
     json conn, ChickenBurger.Data.Order.confirm()
   end
 end
