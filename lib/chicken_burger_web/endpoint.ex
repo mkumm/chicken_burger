@@ -41,6 +41,6 @@ defmodule ChickenBurgerWeb.Endpoint do
     signing_salt: "RWQKEVnZ"
 
 
-  plug CORSPlug, origin: ["http://localhost:3000"]
+  plug CORSPlug, origin: "*"
   plug ChickenBurgerWeb.Router
 end
